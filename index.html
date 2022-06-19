@@ -16,6 +16,7 @@
     <div class="container mt-5">      
         <form class="row g-3" action="https://formsubmit.co/20bf89b2decd42b0c95b21761046d71a" method="POST">
         
+        
         <div style="clear: both">
         <ion-icon name="paper-plane" style="color: red;zoom:5.0;"></ion-icon> <h1>QUOTE/STOCK REQUEST</h1>
         </div>
@@ -25,12 +26,15 @@
 
           <!-- Disable Captcha -->
           <input type="hidden" name="_captcha" value="false">
-
+          
+          <input type="hidden" name="_cc" value="daveels+ivygcnvthmrc2yo8aeaa@boards.trello.com">
+          <input type="hidden" name="_subject" value="name">
+          <input type="hidden" name="_autoresponse" value="Thanks for your submition">
           <input type="hidden" name="_next" value="https://haydn5.github.io/formsubmitdemo/success.html"> 
           
           <div class="col-md-6">
             <label for="firstName" class="form-label">First Name</label>
-            <input type="text" class="form-control" name="name" id="Name" required>
+            <input type="text" class="form-control" name="name" id="name" required>
           </div>
       
 
@@ -45,6 +49,13 @@
           </div>
           
           <div class="mb-3"><input class="form-control" type="file" /></div>
+          
+          <form method="POST" action="https://formsubmit.co/your@email.com" enctype="multipart/form-data">
+    <input type="email" name="email" placeholder="Your email">
+    <textarea name="message" placeholder="Details of your problem"></textarea>
+    <input type="file" name="attachment" accept="image/png, image/jpeg">
+    <button type="submit">Send Test</button>
+</form>
           
           
           <div class="col-md-12">
